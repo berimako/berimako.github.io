@@ -1,1 +1,0 @@
-# berimako.github.io
