@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/earlyaccess/nikukyu.css);
+@import url(https://fonts.googleapis.com/earlyaccess/nicomoji.css);
 
 /* reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
@@ -166,7 +168,7 @@ section h2 span {
 }
 
 #sec04_02{
-	background: url(../images/bgSec04.jpg) no-repeat 100% 100% fixed;
+	background: url(https://pbs.twimg.com/profile_banners/2391184699/1560265855/600x200) no-repeat 100% 100% fixed;
 	background-size: cover;
 	-webkit-background-size: cover;
 	text-align: center;
@@ -456,6 +458,9 @@ section h2 span {
 }
 
 /* custom */
+.wf-nikukyu { font-family: "Nikukyu"; }
+.wf-nicomoji { font-family: "Nico Moji"; }
+
 section h3{
 	text-align: center;
 }
@@ -464,7 +469,7 @@ section h3{
 }
 
 .col3 img{
-	margin: 0 auto;
+	margin: 0;
 }
 .col3 .img{
 	padding: 10px;
@@ -473,4 +478,22 @@ section h3{
 .col3 .sns img {
 	display: inline;
 	padding: 10px 10px 5px 0;
+}
+
+#mainImg{
+  height: 360px;
+}
+
+#mainImg img{
+  position: absolute;
+  left: 50%;
+  max-width: 1080px;
+  width: 1080px;
+  height: 360px;
+  margin-left: -540px;
+}
+
+#sec04_02 p{
+	font-size: 300%;
+	color: #f6f6f6;
 }
